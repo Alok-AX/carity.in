@@ -23,7 +23,53 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+
+    <style>
+        /* #owl-demo .item{
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+} */
+
+/* to remove slide effect  css */
+ .animated  {
+      -webkit-animation-duration : 0 ms  !important;
+      animation-duration : 0 ms  !important;
+      -webkit-animation-fill-mode : both  !important;
+      animation-fill-mode : both  !important;
+    }  
+    
+    
+    .fadeOut  {
+      -webkit-animation-name : fadeOut  ;
+      animation-name : fadeOut  ;
+    }  
+    @-webkit-keyframes  fadeOut  {
+      0% {
+        opacity : 0   ;
+      }  
+      100% {
+        opacity : 0   ;
+      }  
+    }
+    @keyframes  fadeOut  {
+      0% {
+        opacity : 0   ;
+      }  
+      100% {
+        opacity : 0   ;
+      }  
+    }
+    </style>
 </head>
+
 
 <body>
     <!-- header-start -->
@@ -110,25 +156,64 @@
     <!-- header-end -->
 
     <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-9">
-                        <div class="slider_text ">
-                            <span>Get Started Today.</span>
-                            <h3> Help the children
-                                When They Need</h3>
-                            <p>With so much to consume and such little time, coming up <br>
-                                with relevant title ideas is essential</p>
-                            <!-- <a href="About.html" class="boxed-btn3">Learn More -->
-                            </a>
+
+        <div class="slider_area  owl-carousel owl-theme" id="owl-demo">
+            <div class="single_slider item  d-flex align-items-center slider_bg_1 overlay2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div class="slider_text ">
+                                <span>Get Started Today.</span>
+                                <h3> 
+                                    Lend the helping hand get involved</h3>
+                                <p>With so much to consume and such little time, coming up <br>
+                                    with relevant title ideas is essential</p>
+                                <!-- <a href="About.html" class="boxed-btn3">Learn More -->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_slider item  d-flex align-items-center slider_bg_1 overlay2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div class="slider_text ">
+                                <span>Get Started Today.</span>
+                                <h3> 
+                                    Giving Hope to the Homeless People</h3>
+                                <p>With so much to consume and such little time, coming up <br>
+                                    with relevant title ideas is essential</p>
+                                <!-- <a href="About.html" class="boxed-btn3">Learn More -->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_slider item  d-flex align-items-center slider_bg_1 overlay2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div class="slider_text ">
+                                <span>Get Started Today.</span>
+                                <h3> 
+                                    Discover Non-Profit Charity Platform</h3>
+                                <p>With so much to consume and such little time, coming up <br>
+                                    with relevant title ideas is essential</p>
+                                <!-- <a href="About.html" class="boxed-btn3">Learn More -->
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+          
+
+        
+  
     <!-- slider_area_end -->
 
     <!-- reson_area_start  -->
@@ -150,10 +235,8 @@
                             </div>
                         </div>
                         <div class="help_content">
-                            <h4>Lorem ipsum</h4>
-                            <p>Lorem ipsum, or lipsum as it is 
-                                sometimes known, is dummy 
-                                text used in laying out print.</p>
+                            <h4>Reason of Helping</h4>
+                            <p>Our vision is for every child to live in a loving and stable family. </p>
                             <a href="#" class="read_more">Read More</a>
                         </div>
                     </div>
@@ -166,10 +249,8 @@
                             </div>
                         </div>
                         <div class="help_content">
-                            <h4>Lorem ipsum</h4>
-                            <p>Lorem ipsum, or lipsum as it is 
-                                sometimes known, is dummy 
-                                text used in laying out print.</p>
+                            <h4>Supporting Charities</h4>
+                            <p>By helping other charities, we are helping the people who need it the most.</p>
                             <a href="#" class="read_more">Read More</a>
                         </div>
                     </div>
@@ -182,10 +263,9 @@
                             </div>
                         </div>
                         <div class="help_content">
-                            <h4>Lorem ipsum</h4>
-                            <p>Lorem ipsum, or lipsum as it is 
-                                sometimes known, is dummy 
-                                text used in laying out print.</p>
+                            <h4>Our Mission</h4>
+                            <p> 
+                               Charity World supports children and families living in poverty or hardship through our education and fostering projects, and by collaborating with other charities doing great work.</p>
                             <a href="#" class="read_more">Read More</a>
                         </div>
                     </div>
@@ -210,14 +290,10 @@
                             <h3> <span>Watch Our Latest  </span><br>
                                 Activities</h3>
                         </div>
-                        <p class="para_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do 
-                            eiusmod tempor incididunt  ut labore dolore magna aliqua. 
-                            enim minim veniam, quis nostrud exercitation.</p class="para_1">
-                        <p class="para_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do 
-                            eiusmod tempor incididunt  ut labore dolore magna aliqua. 
-                            enim minim veniam, quis nostrud exercitation. tempor 
-                            incididunt  ut labore dolore magna aliqua. enim minim 
-                            veniam, quis nostrud exercitation.</p>
+                        <p class="para_1">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.
+                             </p class="para_1">
+
+                        <p class="para_2">But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
                         <a href="#" data-scroll-nav='1' class="boxed-btn4">Donate Now</a>
                     </div>
                 </div>
@@ -772,6 +848,25 @@
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></script>
+
+    <script>
+        $(document).ready(function() {
+ 
+ $("#owl-demo").owlCarousel({
+   navigation : false,
+   autoplay:true,
+   items : 1, 
+   loop:true,
+      nav:false,
+   animateOut: 'fadeOut',
+      animateIn: 'fadeIn',
+ });
+
+});
+    </script>
 </body>
 
 </html>
